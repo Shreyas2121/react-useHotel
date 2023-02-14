@@ -3,7 +3,7 @@ import { Button, Container, Form, FormLabel } from "react-bootstrap";
 import { Navigate, useLocation, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
-import { Addon, BookingHall, BookingRoom } from "../../types/types";
+import { BookingHall, BookingRoom } from "../../types/types";
 import "./bookingform.css";
 import { useAuth } from "../../context/AuthContext";
 import { useQuery } from "@tanstack/react-query";
