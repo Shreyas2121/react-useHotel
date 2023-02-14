@@ -1,0 +1,184 @@
+#status {
+  font-size: 1vw;
+  color: rgb(255, 0, 0);
+  background-color: #fff;
+  text-align: center;
+  width: 90%;
+  margin: 2% auto;
+}
+
+/* reviewcard */
+
+.Review-rating-card{
+  width: 98%;
+  height: 100%;
+  padding: 3%;
+  margin: 1%;
+  display: block;
+  background-color:rgba(0, 0, 0, 0.6);
+  text-decoration-color: rgba(255, 255 255, 1);
+  text-align: center;
+  font-size: 1.5vw;
+  color: rgb(255, 255, 255);
+  border-radius: 1.5em;
+  }
+
+#review-background-image{
+  display: block;
+  text-decoration-color: rgba(255, 255 255, 1);
+  font-size: 1.2vw;
+  border-radius: 1.5em;
+  box-sizing: border-box;
+}
+
+.review-text{
+  font-size: 1.2vw;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+.Review-name{
+  font-size: 1.5vw;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+#review-cards{
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1% auto;
+  padding: 2%;
+  max-width: 50%;
+  min-height: 22rem;
+  max-height: 22rem;
+  border-radius: 1rem;
+}
+
+/* roomcards & hallcards*/
+
+.room-container{
+  margin: 1rem auto;
+  padding: 1rem
+}
+
+.card-column-one{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-column-three{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 8rem;
+  border-left: 1px solid rgb(218, 218, 218);
+}
+
+.link-style{
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+  background-color: #1E90FF;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+.sold-out{
+  color: red;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.75rem 0;
+
+}
+
+.total-price{
+    font-size: 1rem;
+    margin-top:5px
+}
+
+.max-occupancy-div{
+  display:flex;
+  justify-content:space-between;
+}
+
+.max-occupancy{
+  width:1.5rem;
+  height:1.2rem; 
+  margin-bottom:0.2rem;
+  margin-right:0.3rem;
+}
+
+.room-area{
+  font-size:0.7rem; 
+  margin-top:10%; 
+  font-weight:bold;
+}
+
+.per-night{
+  font-size: 0.8rem;
+  margin-bottom:0;
+}
+
+.display-flex{
+  display:flex;
+}
+
+.amenities-span{
+  font-weight: bold;
+}
+
+.room-para{ 
+  margin-right: 5px;
+  margin-left:5px;
+}
+
+.tick-img{
+  height:1rem;
+  margin-bottom:0.3rem;
+}
+
+.room-price{
+  font-size: 1.5rem;
+  font-weight:bold;
+}
+
+.col-3-div-2{
+  display: flex;
+  align-items:center;
+}
+
+.add_subtract{
+  height: 1.75rem;
+  justify-content: center;
+  width: 1.5rem;
+  background-color:  #11ad21;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  border: 1px solid rgb(150, 150, 150);
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#addButton{
+  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+}
+
+#subtractButton{
+  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.plusminus{
+  margin-left: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.75rem;
+  border-top: 1px grey solid;
+  border-bottom: 1px grey solid;
+  border-collapse: collapse;
+  border-radius: 1rem;
+  /* border: 1px solid grey; */
+}

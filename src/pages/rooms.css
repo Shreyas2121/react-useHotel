@@ -1,0 +1,35 @@
+.input-date {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  background-color: white;
+}
+
+.input-date:focus {
+  outline: none;
+}
+
+#check-availability:hover {
+  background-color: black;
+  color: rgb(255, 196, 0);
+}
+
+.input-select select {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+}
+
+.input-select select:focus {
+  outline: none;
+}
+
+.input-select select option {
+  color: black;
+}

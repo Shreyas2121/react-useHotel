@@ -1,0 +1,54 @@
+.tm-service {
+  max-width: 30%;
+  width: 30%;
+  margin: 1.5% 12% 1.5% 10%;
+}
+
+.tm-servicesection {
+  display: flex;
+}
+
+.tm-serimage {
+  display: inline-block;
+  max-width: 20%;
+  width: 10%;
+  height: auto;
+  padding-bottom: 5%;
+}
+
+.tm-service div {
+  display: inline-block;
+
+  max-width: 75%;
+  padding: 5%;
+}
+
+.tm-service p {
+  font-size: 1.5vmax;
+}
+.tm-service .b {
+  padding-bottom: 2%;
+  font-weight: 700;
+}
+
+.boxes{
+  height: 13.5rem;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.mb-3{
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.container-top-div{
+  text-align: center;
+  padding: 40px;
+}
+
+.icons{
+  height: 10rem;
+}

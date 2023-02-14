@@ -1,0 +1,16 @@
+#account1{
+  border-radius: 10px;
+  width: 4.5rem;
+  color: white;
+  padding: 0.2rem;
+  padding-left: 0.7rem;
+  margin-right: 4rem;
+}
+
+#basic-navbar-nav{
+    margin-right: -5rem;
+}
+
+#dropdownbox{
+    max-width: 1rem;
+}

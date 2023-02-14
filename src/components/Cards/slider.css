@@ -1,0 +1,36 @@
+.tm-slider {
+  position: relative;
+}
+
+.tm-sliderimage {
+  width: 100%;
+  display: block;
+}
+.bold {
+  padding-bottom: 5px;
+  font-size: 3vw;
+  font-weight: 900;
+}
+.simple {
+  font-size: 2.5vw;
+}
+
+.tm-slidertext {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  color: #fff;
+}
+
+.col-lg-3{
+  padding: 2rem;
+  margin: 2rem;
+  height: 24rem;
+  background-color: white;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

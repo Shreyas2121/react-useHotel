@@ -1,0 +1,16 @@
+.card {
+  padding: 4rem;
+  background-color: #ffffff;
+  -webkit-box-shadow: 3px 4px 23px -6px rgba(168, 165, 189, 0.61);
+  -moz-box-shadow: 3px 4px 23px -6px rgba(168, 165, 189, 0.61);
+  box-shadow: 3px 4px 23px -6px rgba(168, 165, 189, 0.61);
+}
+
+.register-container h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
