@@ -2,18 +2,13 @@ import React, { useRef } from "react";
 import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
-import { useAppDispatch } from "../../store/hooks";
-// import { registerUser } from "../../store/userSlice";
 
 import "./register.css";
 import { useAuth } from "../../context/AuthContext";
 
 const Register = () => {
-  // const dispatch = useAppDispatch();
-  // const navigate = useNavigate();
-
   const { register } = useAuth();
 
   const nameRef = useRef<HTMLInputElement>(null);
